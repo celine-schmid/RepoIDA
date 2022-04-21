@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&display=swap');
+body {
+    background-image: url("images/kaffee.jpg");
+}
+
+p {
+    font-family: 'Raleway', light;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 5em;
+    color: aliceblue;
+    line-height: 0.8em;
+    margin-top: 0.4em;
+}
+
+.hund {
+    color: grey;
+}
