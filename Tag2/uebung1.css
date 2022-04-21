@@ -1,17 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&display=swap');
 body {
     background-image: url("images/kaffee.jpg");
+    background-size: cover;
 }
 
 p {
     font-family: 'Raleway', light;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 5em;
-    color: aliceblue;
+    color: transparent;
     line-height: 0.8em;
     margin-top: 0.4em;
 }
 
+p:hover {
+    color: aliceblue;
+}
+
 .hund {
     color: grey;
+}
+
+.button {
+    font-family: 'Raleway', light;
+    font-size: 2em;
+    color: aliceblue;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-color: aliceblue;
 }
