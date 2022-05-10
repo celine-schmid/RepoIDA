@@ -1,0 +1,30 @@
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:visited {
+    color: lightgreen;
+}
+
+a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: currentColor;
+    -webkit-text-stroke-width: .012em;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: lightgreen;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: currentColor;
+    -webkit-text-stroke-width: .012em;
+    margin-top: 0;
+    margin-left: 20px;
+}
